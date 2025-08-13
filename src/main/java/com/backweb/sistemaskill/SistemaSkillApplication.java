@@ -1,4 +1,4 @@
-package com.neki.sistemaskill;
+package com.backweb.sistemaskill;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

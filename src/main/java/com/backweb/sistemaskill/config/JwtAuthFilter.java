@@ -1,6 +1,6 @@
-package com.neki.sistemaskill.config;
+package com.backweb.sistemaskill.config;
 
-import com.neki.sistemaskill.service.UserService;
+import com.backweb.sistemaskill.service.UserService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import jakarta.servlet.FilterChain;

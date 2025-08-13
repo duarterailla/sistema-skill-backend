@@ -1,4 +1,4 @@
-package com.neki.sistemaskill.dto;
+package com.backweb.sistemaskill.dto;
 
 import java.time.LocalDateTime;
 

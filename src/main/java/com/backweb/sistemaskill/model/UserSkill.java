@@ -1,4 +1,4 @@
-package com.neki.sistemaskill.model;
+package com.backweb.sistemaskill.model;
 
 import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonIgnore;

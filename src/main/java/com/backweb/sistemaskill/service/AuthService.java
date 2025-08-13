@@ -1,6 +1,6 @@
-package com.neki.sistemaskill.service;
+package com.backweb.sistemaskill.service;
 
-import com.neki.sistemaskill.model.User;
+import com.backweb.sistemaskill.model.User;
 import java.util.Map;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

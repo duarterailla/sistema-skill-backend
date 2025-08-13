@@ -1,7 +1,7 @@
-package com.neki.sistemaskill.controller;
+package com.backweb.sistemaskill.controller;
 
-import com.neki.sistemaskill.model.User;
-import com.neki.sistemaskill.repository.UserRepository;
+import com.backweb.sistemaskill.model.User;
+import com.backweb.sistemaskill.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

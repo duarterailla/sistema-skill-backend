@@ -1,4 +1,4 @@
-package com.neki.sistemaskill.config;
+package com.backweb.sistemaskill.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

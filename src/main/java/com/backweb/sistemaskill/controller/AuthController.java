@@ -1,8 +1,8 @@
-// ...existing code...
-package com.neki.sistemaskill.controller;
 
-import com.neki.sistemaskill.service.AuthService;
-import com.neki.sistemaskill.service.UserService;
+package com.backweb.sistemaskill.controller;
+
+import com.backweb.sistemaskill.service.AuthService;
+import com.backweb.sistemaskill.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

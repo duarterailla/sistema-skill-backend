@@ -1,12 +1,12 @@
 
-package com.neki.sistemaskill.service;
+package com.backweb.sistemaskill.service;
 
-import com.neki.sistemaskill.model.Skill;
-import com.neki.sistemaskill.model.User;
-import com.neki.sistemaskill.model.UserSkill;
-import com.neki.sistemaskill.repository.SkillRepository;
-import com.neki.sistemaskill.repository.UserRepository;
-import com.neki.sistemaskill.repository.UserSkillRepository;
+import com.backweb.sistemaskill.model.Skill;
+import com.backweb.sistemaskill.model.User;
+import com.backweb.sistemaskill.model.UserSkill;
+import com.backweb.sistemaskill.repository.SkillRepository;
+import com.backweb.sistemaskill.repository.UserRepository;
+import com.backweb.sistemaskill.repository.UserSkillRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

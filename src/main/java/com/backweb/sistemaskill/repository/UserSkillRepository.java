@@ -1,6 +1,6 @@
-package com.neki.sistemaskill.repository;
+package com.backweb.sistemaskill.repository;
 
-import com.neki.sistemaskill.model.UserSkill;
+import com.backweb.sistemaskill.model.UserSkill;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

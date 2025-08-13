@@ -1,9 +1,9 @@
-package com.neki.sistemaskill.model;
+package com.backweb.sistemaskill.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.*;
 import java.util.Set;
-import com.neki.sistemaskill.model.Categoria;
+import com.backweb.sistemaskill.model.Categoria;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity

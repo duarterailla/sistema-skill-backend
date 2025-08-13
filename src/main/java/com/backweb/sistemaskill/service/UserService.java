@@ -1,8 +1,8 @@
 
-package com.neki.sistemaskill.service;
+package com.backweb.sistemaskill.service;
 
-import com.neki.sistemaskill.model.User;
-import com.neki.sistemaskill.repository.UserRepository;
+import com.backweb.sistemaskill.model.User;
+import com.backweb.sistemaskill.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

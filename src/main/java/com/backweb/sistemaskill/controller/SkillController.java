@@ -1,8 +1,8 @@
-package com.neki.sistemaskill.controller;
+package com.backweb.sistemaskill.controller;
 
-import com.neki.sistemaskill.model.Skill;
-import com.neki.sistemaskill.repository.SkillRepository;
-import com.neki.sistemaskill.model.Categoria;
+import com.backweb.sistemaskill.model.Skill;
+import com.backweb.sistemaskill.repository.SkillRepository;
+import com.backweb.sistemaskill.model.Categoria;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
