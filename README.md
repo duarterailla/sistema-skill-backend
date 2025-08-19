@@ -1,6 +1,6 @@
 # Sistema Skill - Backend
 
-<<<<<<< HEAD
+
 Este projeto é o backend de um sistema para cadastro, organização e associação de skills (habilidades) a usuários, com suporte a categorias, exportação em PDF e autenticação JWT.
 
 ## Tecnologias
