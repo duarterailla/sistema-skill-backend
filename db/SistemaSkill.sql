@@ -13,7 +13,11 @@ CREATE TABLE usuario (
     senha VARCHAR(255) NOT NULL,
     status VARCHAR(20),
     data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    ultimo_acesso TIMESTAMP
+    ultimo_acesso TIMESTAMP,
+    nome_completo VARCHAR(100),
+    data_nascimento DATE,
+    informacoes_relevantes VARCHAR(1000),
+    contato VARCHAR(50)
 );
 
 -- Tabela de categorias
@@ -180,4 +184,10 @@ INSERT INTO skills (nome, descricao, imagem_url, categoria_id) VALUES
 ('Agile', 'Conjunto de práticas para o desenvolvimento de software focado em entregas incrementais e colaboração.', 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg', 8),
 ('Scrum', 'Framework ágil para gerenciar o desenvolvimento de produtos complexos, baseado em ciclos (sprints).', 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg', 8),
 ('Jira', 'Ferramenta popular para gerenciamento de projetos, rastreamento de bugs e desenvolvimento ágil.', 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg', 8);
+
+-- Adiciona campos do perfil do usuário
+ALTER TABLE usuario ADD COLUMN IF NOT EXISTS nome_completo VARCHAR(100);
+ALTER TABLE usuario ADD COLUMN IF NOT EXISTS data_nascimento DATE;
+ALTER TABLE usuario ADD COLUMN IF NOT EXISTS informacoes_relevantes VARCHAR(1000);
+ALTER TABLE usuario ADD COLUMN IF NOT EXISTS contato VARCHAR(50);
 
