@@ -1,0 +1,46 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+/.idea/
+*.iml
+*.ipr
+*.iws
+/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+/build/
+
+# Others
+*.class
+*.jar
+*.war
+*.ear
+
+# Database
+*.db
+*.sqlite
+
+# Node
+node_modules/
+
+# Java
+*.javadoc
+
+# Spring Boot
+spring.log
+
+# Misc
+*.swp
+*.swo
+
+# Exclude backend-web if não for usado
+/backend-web/
